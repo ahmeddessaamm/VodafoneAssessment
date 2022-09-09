@@ -80,9 +80,5 @@ public void selectSecondProduct () {
 		
 		
 	}
-	@Test(priority=10)
-	public void Save4later() {
-		
-		basektpageobject.SaveForLater();
-	}
+
 }
