@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-09T21:47:44 EET" name="Default suite" finished-at="2022-09-09T21:50:33 EET" duration-ms="169768">
+    <groups>
+    </groups>
+    <test started-at="2022-09-09T21:47:44 EET" name="Default test" finished-at="2022-09-09T21:50:33 EET" duration-ms="169768">
+      <class name="tests.SearchForProductAndAddToBasketTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:47:44 EET" name="startDriver" finished-at="2022-09-09T21:47:53 EET" duration-ms="8935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="openUserLoginPage()[pri:1, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:47:53 EET" name="openUserLoginPage" finished-at="2022-09-09T21:47:55 EET" duration-ms="2787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUserLoginPage -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:47:55 EET" name="takeSSonFailure" finished-at="2022-09-09T21:47:55 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openUserLoginPage status=SUCCESS method=SearchForProductAndAddToBasketTest.openUserLoginPage()[pri:1, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method signature="InsertEmail()[pri:2, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:47:55 EET" name="InsertEmail" finished-at="2022-09-09T21:48:18 EET" duration-ms="23013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsertEmail -->
+        <test-method signature="insertPassword()[pri:3, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:48:18 EET" name="insertPassword" finished-at="2022-09-09T21:48:19 EET" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertPassword -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:48:18 EET" name="takeSSonFailure" finished-at="2022-09-09T21:48:18 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InsertEmail status=SUCCESS method=SearchForProductAndAddToBasketTest.InsertEmail()[pri:2, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:48:19 EET" name="takeSSonFailure" finished-at="2022-09-09T21:48:19 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=insertPassword status=SUCCESS method=SearchForProductAndAddToBasketTest.insertPassword()[pri:3, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method signature="Search()[pri:4, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:48:19 EET" name="Search" finished-at="2022-09-09T21:48:25 EET" duration-ms="6737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:48:25 EET" name="takeSSonFailure" finished-at="2022-09-09T21:48:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search status=SUCCESS method=SearchForProductAndAddToBasketTest.Search()[pri:4, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method signature="selectFirstProduct()[pri:5, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:48:25 EET" name="selectFirstProduct" finished-at="2022-09-09T21:48:33 EET" duration-ms="7658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFirstProduct -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:48:33 EET" name="takeSSonFailure" finished-at="2022-09-09T21:48:33 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectFirstProduct status=SUCCESS method=SearchForProductAndAddToBasketTest.selectFirstProduct()[pri:5, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method signature="addFirstProductToBasket()[pri:6, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:48:33 EET" name="addFirstProductToBasket" finished-at="2022-09-09T21:49:17 EET" duration-ms="44166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstProductToBasket -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:49:17 EET" name="takeSSonFailure" finished-at="2022-09-09T21:49:17 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addFirstProductToBasket status=SUCCESS method=SearchForProductAndAddToBasketTest.addFirstProductToBasket()[pri:6, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method signature="selectSecondProduct()[pri:7, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:49:17 EET" name="selectSecondProduct" finished-at="2022-09-09T21:49:27 EET" duration-ms="9347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSecondProduct -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:49:27 EET" name="takeSSonFailure" finished-at="2022-09-09T21:49:27 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectSecondProduct status=SUCCESS method=SearchForProductAndAddToBasketTest.selectSecondProduct()[pri:7, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method signature="addSecondProductToBasket()[pri:8, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:49:27 EET" name="addSecondProductToBasket" finished-at="2022-09-09T21:50:02 EET" duration-ms="35517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSecondProductToBasket -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:50:02 EET" name="takeSSonFailure" finished-at="2022-09-09T21:50:02 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addSecondProductToBasket status=SUCCESS method=SearchForProductAndAddToBasketTest.addSecondProductToBasket()[pri:8, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method signature="ValidateThatItemsVisible()[pri:9, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:50:02 EET" name="ValidateThatItemsVisible" finished-at="2022-09-09T21:50:03 EET" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateThatItemsVisible -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:50:03 EET" name="takeSSonFailure" finished-at="2022-09-09T21:50:03 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateThatItemsVisible status=SUCCESS method=SearchForProductAndAddToBasketTest.ValidateThatItemsVisible()[pri:9, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method signature="Save4later()[pri:10, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:50:03 EET" name="Save4later" finished-at="2022-09-09T21:50:33 EET" duration-ms="30116" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: submit.save-for-later.C0a6b4dc9-fa4e-4ec5-a509-1e5d52339663' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: submit.save-for-later.C0a6b4dc9-fa4e-4ec5-a509-1e5d52339663' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at pages.BasketPage.SaveForLater(BasketPage.java:45)
+at tests.SearchForProductAndAddToBasketTest.Save4later(SearchForProductAndAddToBasketTest.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='submit.save-for-later.C0a6b4dc9-fa4e-4ec5-a509-1e5d52339663']"}
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'MADA', ip: '192.168.1.3', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b86fcb0ee56ed9f9c59a386ae36937bd, findElement {using=name, value=submit.save-for-later.C0a6b4dc9-fa4e-4ec5-a509-1e5d52339663}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\mada\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53794}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53794/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b86fcb0ee56ed9f9c59a386ae36937bd
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Save4later -->
+        <test-method is-config="true" signature="takeSSonFailure(org.testng.ITestResult)[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:50:33 EET" name="takeSSonFailure" finished-at="2022-09-09T21:50:33 EET" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Save4later status=FAILURE method=SearchForProductAndAddToBasketTest.Save4later()[pri:10, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeSSonFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.SearchForProductAndAddToBasketTest@1afd44cb]" started-at="2022-09-09T21:50:33 EET" name="stopDriver" finished-at="2022-09-09T21:50:33 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.SearchForProductAndAddToBasketTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
