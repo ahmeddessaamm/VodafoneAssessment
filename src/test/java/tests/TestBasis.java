@@ -19,8 +19,6 @@ import utilities.Helper;
 
 public class TestBasis {
 	
-	String oldpassword = "Passw@rd12" ;
-	String newpassword="Asdf12345@";
 	public WebDriver driver;
 	@SuppressWarnings("deprecation")
 	@BeforeClass
