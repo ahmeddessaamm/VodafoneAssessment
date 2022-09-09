@@ -34,7 +34,7 @@ public class LoginPageTest extends TestBasis {
 	@Test (priority=3)
 	public void insertPassword ( ) {
 		
-		loginobject.insertPassword("okmada12");
+		loginobject.insertPassword("asdf1234");
 	}
 
 }
