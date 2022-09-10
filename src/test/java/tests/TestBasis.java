@@ -45,7 +45,7 @@ public class TestBasis {
 	@AfterClass
 	public void stopDriver() {
 		
-	//driver.quit();	
+	driver.quit();	
 	}
 	@AfterMethod
 	
