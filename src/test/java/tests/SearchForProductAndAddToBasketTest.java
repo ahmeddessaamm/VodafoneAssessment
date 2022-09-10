@@ -1,5 +1,8 @@
 package tests;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import pages.AddToBasketPage;
@@ -7,6 +10,8 @@ import pages.BasketPage;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.SearchForProductPage;
+
+import java.time.Duration;
 
 public class SearchForProductAndAddToBasketTest extends TestBasis {
 
@@ -80,5 +85,14 @@ public void selectSecondProduct () {
 		
 		
 	}
+@Test (priority = 10)
+public void saveForLater () throws InterruptedException {
+	basektpageobject.saveForLater();
+}
+@Test (priority = 11)
+	public void MoveBackToBasket () throws InterruptedException {
 
+		basektpageobject.MoveToBasket();
+
+}
 }
